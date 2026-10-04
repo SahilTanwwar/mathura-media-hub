@@ -113,7 +113,7 @@ function App() {
         <div className="pricing-grid">
           <article className="package"><h3>Starter</h3><div className="price">₹4,000 <small>/ project</small></div><ul><li>One-page website</li><li>WhatsApp enquiry button</li><li>Basic Google setup</li></ul><a className="btn btn-outline" href="#contact">Starter ke baare mein poochhein</a></article>
           <article className="package featured"><div className="popular">Sabse popular</div><h3>Growth</h3><div className="price">₹10,000 <small>/ project</small></div><ul><li>Website + AI promo video</li><li>Ad campaign setup</li><li>Monthly report</li></ul><a className="btn btn-primary" href="#contact">Growth ke baare mein poochhein</a></article>
-          <article className="package"><h3>Premium</h3><div className="price">₹16,000 <small>/ project</small></div><ul><li>Complete online presence</li><li>Regular ads + content</li><li>Priority support</li></ul><a className="btn btn-outline" href="#contact">Premium ke baare mein poochhein</a></article>
+          <article className="package"><h3>Premium</h3><div className="price">₹15,000 <small>/ project</small></div><ul><li>Complete online presence</li><li>Regular ads + content</li><li>Priority support</li></ul><a className="btn btn-outline" href="#contact">Premium ke baare mein poochhein</a></article>
         </div>
       </div>
     </section>
