@@ -145,7 +145,8 @@
     .footer-row p { font-size: .82rem; margin: 0; }
     .socials { display: flex; gap: 17px; }
     .socials a { color: #e8f5f4; font-size: .83rem; font-weight: 700; }
-    .floating-wa { align-items: center; background: #1aae5a; border: 3px solid white; border-radius: 50%; bottom: 18px; box-shadow: 0 8px 24px rgba(0,0,0,.2); color: white; display: none; font-size: 1.4rem; height: 57px; justify-content: center; position: fixed; right: 18px; width: 57px; z-index: 20; }
+    .floating-wa { align-items: center; background: #1aae5a; border: 3px solid white; border-radius: 50%; bottom: 18px; box-shadow: 0 8px 24px rgba(0,0,0,.2); color: white; display: none; height: 57px; justify-content: center; position: fixed; right: 18px; width: 57px; z-index: 20; }
+    .whatsapp-icon { display: block; fill: currentColor; height: 31px; width: 31px; }
     .floating-wa:hover { transform: scale(1.05); }
     @media (max-width: 800px) {
       .container { width: min(100% - 32px, 600px); }

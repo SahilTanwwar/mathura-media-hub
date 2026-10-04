@@ -169,7 +169,11 @@ function App() {
       <div className="socials"><a href="https://instagram.com/mathuramediahub" target="_blank" rel="noopener">Instagram ↗</a><a href="https://facebook.com/mathuramediahub" target="_blank" rel="noopener">Facebook ↗</a><a href="https://linkedin.com/company/mathuramediahub" target="_blank" rel="noopener">LinkedIn ↗</a></div>
     </div>
   </footer>
-  <a className="floating-wa" href={WHATSAPP_URL} target="_blank" rel="noopener" aria-label="WhatsApp par baat karein">●</a>
+  <a className="floating-wa" href={WHATSAPP_URL} target="_blank" rel="noopener" aria-label="WhatsApp par baat karein">
+    <svg className="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 3.25a8.75 8.75 0 0 0-7.56 13.16L3.1 20.9l4.62-1.29A8.75 8.75 0 1 0 12 3.25Zm0 15.98a7.22 7.22 0 0 1-3.68-1.01l-.26-.15-2.74.76.77-2.66-.17-.27A7.22 7.22 0 1 1 12 19.23Zm3.97-5.36c-.22-.11-1.32-.65-1.52-.72-.2-.07-.35-.11-.5.11-.15.22-.57.72-.7.87-.13.15-.26.17-.48.06-.22-.11-.92-.34-1.75-1.08-.65-.58-1.09-1.3-1.22-1.52-.13-.22-.01-.34.1-.45.1-.1.22-.26.33-.39.11-.13.15-.22.22-.37.07-.15.04-.28-.02-.39-.06-.11-.5-1.21-.69-1.66-.18-.43-.37-.37-.5-.38h-.43c-.15 0-.39.06-.59.28-.2.22-.78.76-.78 1.85s.8 2.15.91 2.3c.11.15 1.58 2.41 3.83 3.38.54.23.96.37 1.29.47.54.17 1.03.15 1.42.09.43-.06 1.32-.54 1.5-1.06.19-.52.19-.97.13-1.06-.06-.09-.2-.15-.42-.26Z" />
+    </svg>
+  </a>
     </>
   );
 }
